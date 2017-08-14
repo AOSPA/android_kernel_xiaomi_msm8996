@@ -2111,6 +2111,7 @@ static int synaptics_rmi4_f01_init(struct synaptics_rmi4_data *rmi4_data,
 	if (retval < 0)
 		return retval;
 
+
 	rmi4_data->f01_query_base_addr = fd->query_base_addr;
 	rmi4_data->f01_ctrl_base_addr = fd->ctrl_base_addr;
 	rmi4_data->f01_data_base_addr = fd->data_base_addr;
